@@ -45,8 +45,8 @@
       plugins: [
         function(hook, vm) {
           hook.beforeEach(function(content) {
-            // 每次开始解析 Markdown 内容时调用
-            // 将所有../img替换成img
+            // 每次開始解析 Markdown 內容時調用
+            // 將所有../img替換成img
             // https://github.com/docsifyjs/docsify/issues/936
             return content.replace(/..\/img/g, "img");
           })
@@ -57,7 +57,7 @@
         }
       ],
       externalLinkTarget: '_target',
-      name: '《动手学深度学习》(PyTorch版)',
+      name: '《動手學深度學習》(PyTorch版)',
       repo: 'https://github.com/ShusenTang/Dive-into-DL-PyTorch'
     }
   </script>
