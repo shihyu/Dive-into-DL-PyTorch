@@ -1,8 +1,5 @@
 serve:
-	@mdbook serve
-
-build:
-	@mdbook build
+	@docsify serve docs
 
 clean:
 	rm -fr docs
